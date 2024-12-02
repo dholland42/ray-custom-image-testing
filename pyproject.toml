@@ -1,0 +1,9 @@
+[project]
+name = "ray-deps"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ray[all]>=2.39.0",
+]
