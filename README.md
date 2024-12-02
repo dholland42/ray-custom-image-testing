@@ -12,7 +12,7 @@ docker build -t raytest:0.1.0 .
 
 # set up the kind cluster
 kind create cluster
-kind load docker-image raytesting:0.1.0
+kind load docker-image raytest:0.1.0
 
 # add the necessary ray operator
 helm install kuberay-operator kuberay/kuberay-operator --version 1.2.2
